@@ -7,6 +7,12 @@
     scroll-behavior: smooth;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: .5s;
+}
+
 nav {
     background-color: rgba(0, 0, 0, 0.74);
     display: flex;
@@ -22,16 +28,15 @@ nav {
     font-family: 'wildness', sans-serif;
     font-size: 50px;
     color: rgb(228, 167, 47);
-    text-decoration-line: none;
 }
 
 .nav-list {
     display: flex;
     list-style: none;
-    color: rgb(255, 255, 255);
     font-family: 'Fox Bebas', sans-serif;
     font-size: 19px;
     font-weight: 500;
+    list-style: none;
 }
 
 .nav-list li {
