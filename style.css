@@ -1,0 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/wildness');
+@import url('https://fonts.cdnfonts.com/css/fox-bebas');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.74);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 90vw;
+    height: 12vh;
+    padding: 0 5%;
+}
+
+.name {
+    font-family: 'wildness', sans-serif;
+    font-size: 50px;
+    color: rgb(228, 167, 47);
+    text-decoration-line: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Fox Bebas', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-right: 40px;
+}
+
+h1 {
+    text-align: justify;
+    padding: 10% 20%;
+
+}
