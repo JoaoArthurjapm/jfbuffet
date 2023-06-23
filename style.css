@@ -66,6 +66,12 @@ td {
     height: 1000px;
 }
 
+.name {
+    font-family: 'wildness', sans-serif;
+    font-size: 380%;
+    color: rgb(228, 167, 47);
+}
+
 nav {
     background-color: rgba(0, 0, 0, 0.74);
     display: flex;
@@ -76,12 +82,6 @@ nav {
     height: 12vh;
     padding: 0 5%;
     z-index: 2;
-}
-
-.name {
-    font-family: 'wildness', sans-serif;
-    font-size: 380%;
-    color: rgb(228, 167, 47);
 }
 
 .nav-list {
@@ -373,4 +373,47 @@ main {
     text-align: justify;
     text-indent: 40px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    padding: 0 15%;
+}
+
+.menu h1 {
+    font-size: 38px;
+    font-family: 'Fox Bebas', sans-serif;
+    margin: 5% 0 3% 0;
+    border-bottom: 3px solid rgb(201, 201, 6);
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+}
+
+.menu ul li a:hover {
+    background-color: rgba(201, 201, 6, 0.767);
+
+    border-radius: 100%;
+}
+
+.option {
+    color: black;
+    display: flex;
+    font-family: 'Fox Bebas', sans-serif;
+    font-size: 2rem;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
 }
