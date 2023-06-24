@@ -472,22 +472,71 @@ main {
 	border-bottom: 3px solid rgb(201, 201, 6);
 }
 
+.social-midia-aside {
+	margin-bottom: 4%;
+}
+
+.social-midia-aside h2 {
+	font-size: 20px;
+	font-family: 'Fox Bebas', sans-serif;
+	margin: 2% 0 0% 0;
+}
+
+.social-midia-aside p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
 .social-midia div {
-	width: 40px;
-	height: 40px;
+	width: 100%;
+	height: 30vh;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	cursor: pointer;
 	color: #fff;
-	margin: 0 35% 5% 35%;
+	margin: 2% 0;
+	flex-wrap: wrap;
+}
+
+.instagram {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.whatsapp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
 }
 
 .instagram:hover {
-	width: 35px;
+	width: 45px;
 }
 
 .whatsapp:hover {
-	width: 35px;
+	width: 45px;
+}
+
+.content-intagram {
+	width: 120px;
+	text-align: center;
+	font-family: 'Fox Bebas', sans-serif;
+	font-size: 150%;
+	color: #000;
+}
+
+.content-whatsapp {
+	width: 120px;
+	text-align: center;
+	font-family: 'Fox Bebas', sans-serif;
+	font-size: 150%;
+	color: #000;
 }
