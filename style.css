@@ -430,37 +430,6 @@ main {
 
 .slides img {}
 
-.footer {
-	background-color: black;
-	height: 15vh;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.congratulations {
-	color: #fff;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	justify-content: end;
-}
-
-.congratulations h3 {
-	font-family: 'wildness', sans-serif;
-	font-size: 18px;
-}
-
-.congratulations h4 {
-	font-size: 14px;
-	margin: 4%;
-}
-
-.congratulations p {
-	font-size: 10px;
-}
-
-
 .social-midia {
 	padding: 0 15%;
 }
@@ -539,4 +508,35 @@ main {
 	font-family: 'Fox Bebas', sans-serif;
 	font-size: 150%;
 	color: #000;
+}
+
+.footer {
+	background-color: rgb(201, 201, 6);;
+	height: 15vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+.congratulations {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: end;
+}
+
+.congratulations h3 {
+	font-family: 'wildness', sans-serif;
+	font-size: 18px;
+}
+
+.congratulations h4 {
+	font-size: 14px;
+	margin: 4%;
+}
+
+.congratulations p {
+	font-size: 10px;
 }
