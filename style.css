@@ -366,6 +366,7 @@ main {
 	margin-left: 7%;
 	clip-path: circle(6.6rem);
 	background-position: bottom 30% left 30%;
+	align-items: center;
 }
 
 .about-text .p-two {
