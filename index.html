@@ -11,15 +11,15 @@
 </head>
 
 <body>
-  <header class="home" id="inicio">
+  <header class="home" id="home">
     <nav>
-      <a class="name" href="#inicio"> JF Buffet </a>
+      <a class="name" href="#home"> JF Buffet </a>
       <ul class="nav-list">
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#cardapio">Cardápio</a></li>
-        <li><a href="#fotos">Fotos</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#photos">Fotos</a></li>
+        <li><a href="#menu">Cardápio</a></li>
+        <li><a href="#contact">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -32,6 +32,7 @@
   </section>
 
   <main>
+    <div id="about"></div>
     <h2 class="specialites">
       <div class="specialites-name">Nossas especialidades</div>
     </h2>
@@ -73,21 +74,87 @@
           experiência possível.</p>
       </article>
     </section>
+
+    <section class="slider">
+
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <input type="radio" name="radio-btn" id="radio6">
+        <input type="radio" name="radio-btn" id="radio7">
+        <input type="radio" name="radio-btn" id="radio8">
+
+        <div class="slide"><img src="img/2slide-crepe-doce.jpg" alt="Buffet de Crepe" /></div>
+        <div class="slide"><img src="img/2slide-salgados-crepe.JPG" alt="Buffet de crepe" /></div>
+        <div class="slide"><img src="img/2slide-feijoada.jpg" alt="Buffet de Feijoada" /></div>
+        <div class="slide"><img src="img/2slide-prato-feijoada.jpg" alt="Prato de feijoada" /></div>
+        <div class="slide"><img src="img/2slide-steak.jpg" alt="Buffet de churrasco" /></div>
+        <div class="slide"><img src="img/2slide-legumes.jpg" alt="Salada de legumas" /></div>
+        <div class="slide"><img src="img/2slide-salgado.jpg" alt="Buffef de salgados" /></div>
+        <div class="slide"><img src="img/2slide-talheres.JPG" alt="Organização" /></div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+          <div class="auto-btn5"></div>
+          <div class="auto-btn6"></div>
+          <div class="auto-btn7"></div>
+          <div class="auto-btn8"></div>
+        </div>
+
+      </div>
+
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+        <label for="radio5" class="manual-btn"></label>
+        <label for="radio6" class="manual-btn"></label>
+        <label for="radio7" class="manual-btn"></label>
+        <label for="radio8" class="manual-btn"></label>
+      </div>
+
+    </section>
+
     <section class="menu">
       <h1>Cardápio</h1>
       <article class="selec-menu">
         <ul>
-          <li><a class="option" href="#inicio">Crepe</a></li>
-          <li><a class="option" href="#inicio">Pizza</a></li>
-          <li><a class="option" href="#inicio">Churrasco</a></li>
-          <li><a class="option" href="#inicio">Feijoada</a></li>
+          <li><a class="option" href="#">Crepe</a></li>
+          <li><a class="option" href="#">Pizza</a></li>
+          <li><a class="option" href="#">Churrasco</a></li>
+          <li><a class="option" href="#">Feijoada</a></li>
           <li><a class="option" href="#">Comida de Boteco</a></li>
-          <li> <a class="option" href="#">Massas</a></li>
+          <li><a class="option" href="#">Massas</a></li>
           <li><a class="option" href="#">Strogonoff</a></li>
           <li><a class="option" href="#">Filé Mignon & Filé de Frango</a></li>
         </ul>
       </article>
     </section>
+
+    <section class="social-midia">
+      <h1>Contato</h1>
+      <div>
+        <div><a href="https://instagram.com/jf.buffet?igshid=OGQ5ZDc2ODk2ZA=="><img class="instagram"
+              src="img/iconInstagram.svg" alt="instagram" width="40px"></a></div>
+        <div><a href="https://contate.me/jfbuffet"></a><img class="whatsapp" src="img/iconWhatsapp.svg" alt="whatsapp"
+            width="40px"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <section class="congratulations">
+        <h3>JFBuffet</h3>
+        <h4>Desde 2008</h4>
+        <p>@arthurpmlo</p>
+      </section>
+    </footer>
   </main>
 
 </body>
